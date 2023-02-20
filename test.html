@@ -1,0 +1,68 @@
+<div class="form_contact">
+  <div class="form_contact_tb">
+    <dl>
+      <dt>お名前<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="sub_name" placeholder="姓"]</dd>
+    </dl>
+    <dl>
+      <dt>お名前<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="name" placeholder="名"]</dd>
+    </dl>
+    <dl>
+      <dt>フリガナ<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="your-katakana-sub" placeholder="セイ"]
+      </dd>
+    </dl>
+    <dl>
+      <dt>フリガナ<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="your-katakana" placeholder="メイ"]</dd>
+    </dl>
+    <dl>
+      <dt>会社名<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="your-company" class="input_full"]</dd>
+    </dl>
+    <dl>
+      <dt>部署名</dt>
+      <dd>[mwform_text name="your_job" class="input_full"]</dd>
+    </dl>
+    <dl>
+      <dt>E-mail<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="email" placeholder="sample@chibakigyo.com" class="input_full"]</dd>
+    </dl>
+    <dl>
+      <dt>電話番号<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_text name="phone_number" placeholder="03-0000-0000" class="input_w47"]</dd>
+    </dl>
+    <dl>
+      <dt>FAX番号</dt>
+      <dd>[mwform_text name="fax" placeholder="03-0000-0000" class="input_w47"]</dd>
+    </dl>
+    <dl>
+      <dt>都道府県<span class="key_obligatory">必須</span></dt>
+      <dd>
+        <div class="box-row">
+          <span class="key">〒</span>
+          [mwform_text" name="zipcode" placeholder="189-0025" class="w160 input_zip_code"]
+          [mwform_text name="address" class="input_full" placeholder="都道府県・市町村名"]
+          [mwform_text name="citi" class="input_full" placeholder="番地 / 建物名 / 部屋番号"]
+        </div>
+      </dd>
+    </dl>
+    <dl>
+      <dt>収集地区<span class="key_obligatory">必須</span></dt>
+      <dd class="box-checkbox">[mwform_checkbox name="collection_area"
+        children="特別区,東村山市,西東京市,東久留米市,清瀬市,東大和市,小平市,武蔵村山市,その他地域"]</dd>
+    </dl>
+    <dl>
+      <dt>ご相談内容<span class="key_obligatory">必須</span></dt>
+      <dd class="box-checkbox-col">[mwform_checkbox name="content_of_consultation"
+        children="リサイクルについて,事業ごみの定期収集について,粗大、情報系ごみのスポット収集について,家庭ごみの行政委託収集について,採用について,新規お取引先、パートナー企業様のお問い合わせについて"]</dd>
+    </dl>
+    <dl>
+      <dt>詳細<span class="key_obligatory">必須</span></dt>
+      <dd>[mwform_textarea name="content_of_inquiry" cols="50" rows="5" placeholder="ご依頼の詳細をご記入ください。"]</dd>
+    </dl>
+  </div>
+  <div class="btn_submit center">[mwform_bconfirm value="confirm"]入力内容を確認する[/mwform_bconfirm][mwform_backButton
+    name="back" value="戻る"][mwform_bsubmit name="submit" value="send"]送信[/mwform_bsubmit]</div>
+</div>
